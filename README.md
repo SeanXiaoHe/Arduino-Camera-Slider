@@ -5,7 +5,7 @@ The goal of this project is creating a camera slider controlled by a joystick. T
 
 ---
 ##Schematic
-![alt tag](http://url/to/SCHEMATIC.png)
+![alt tag](https://github.com/SeanXiaoHe/CS207/blob/master/IMG/SCHEMATIC.png?raw=true)
 
 ---
 
