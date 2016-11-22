@@ -1,8 +1,7 @@
 #Arduino Camera Slider
 ---
 ##Synopsis
-
-This goal of this project is creating a camera slider controlled by a joystick. The slider basically built by combining the Arduino Uno, the EasyDriver Stepper Motor Driver and the Collision sensor switch module. This project is an good example of control the direction and speed of a stepper motor with Analog Joystick, Easy Driver and limit Switches.
+The goal of this project is creating a camera slider controlled by a joystick. The slider basically built by combining the Arduino Uno, the EasyDriver Stepper Motor Driver and the Collision sensor switch module. This project is an good example of control the direction and speed of a stepper motor with Analog Joystick, Easy Driver and limit Switches.
 ---
 ##Connection
 
@@ -25,7 +24,6 @@ Pin 4 is connected to the joystick Key or switch pin
 Pint 2 and 3 are connected to the OUT pin of the Limit Switches
  
 The Ground and Voltage pins of the Easy Driver are connected to a 1 Amp 12V power supply.
- 
 We are also using a small breadboard to split the Ground and Voltage connections of the various devices
 ---
 ##Parts
