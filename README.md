@@ -4,11 +4,22 @@
 The goal of this project is creating a camera slider controlled by a joystick. The slider basically built by combining the Arduino Uno, the EasyDriver Stepper Motor Driver and the Collision sensor switch module. This project is an good example of control the direction and speed of a stepper motor with Analog Joystick, Easy Driver and limit Switches.
 
 ---
+##Repository Contents
+
+* Code: *Code for this project*
+
+* IMG: *Images including schematic, my build example and photos of parts*
+
+* Previous Version: *This folder contains the code and schematic for the previous design which built without the Collision sensor switch modules*
+
+* README.md: *Full information about this project*
+
+---
 ##Schematic
 ![alt tag](https://github.com/SeanXiaoHe/CS207/blob/master/IMG/SCHEMATIC.png?raw=true)
 
               
-
+---
 ##Connection
 
 ![alt tag](https://github.com/SeanXiaoHe/CS207/blob/master/IMG/design.jpg)
@@ -43,7 +54,7 @@ The slider in this project has to be connected to an external 12V power supply. 
 
 The user can use the joystick to control the rotation direction of the motor which is also the direction of the camera base in this case. The camera base would move to the left when the user moves the joystick to the left, vice versa.
 
-The user can also change the speed by clicking the joystick. The speed of the motor starts from slow to fast by each clicking. The user can alter the speed of each level as well as adding more levels through the if (!digitalRead(Joy_switch)) part of the code in the loop. By adding a case, the user can add one more level for the speed switch function. When we change the variable step_speed, we can modify the speed for each level, from 10 as the slowest to 1 as the fastest speed.
+The user can also change the speed by clicking the joystick. The speed of the motor starts from slow to fast by each clicking. The user can alter the speed of each level as well as adding more levels through the if *(!digitalRead(Joy_switch))* part of the code in the loop. By adding a case, the user can add one more level for the speed switch function. When we change the variable *step_speed*, we can modify the speed for each level, from 10 as the slowest to 1 as the fastest speed.
 
 ![alt tag](https://github.com/SeanXiaoHe/CS207/blob/master/IMG/Capture.PNG)
 
